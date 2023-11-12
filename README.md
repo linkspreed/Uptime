@@ -26,19 +26,20 @@ for our developers, users and anyone who comes into contact with ([Linkspreed ðŸ
  You can enjoy Uptime freely and use all features to an unlimited extent.
 
 ## ðŸ“· UI
+![image](https://github.com/linkspreed/Uptime/assets/102324985/ca1d8ed8-a579-463b-81dc-ae70748e15d3)
 
 
 ### Welcome
-<img align="center" alt="Analytix" width="3000px" src="https://github.com/linkspreed/Analytix/blob/main/screenshots/1.PNG" draggable="false" />
+<img align="center" alt="Uptime" width="3000px" src="https://github.com/linkspreed/Uptime/assets/102324985/ca1d8ed8-a579-463b-81dc-ae70748e15d3" draggable="false" />
 
 ### Register
-<img align="center" alt="Analytix" width="3000px" src="https://github.com/linkspreed/Analytix/blob/main/screenshots/2.PNG" draggable="false" />
+<img align="center" alt="Uptime" width="3000px" src="https://github.com/linkspreed/Uptime/assets/102324985/6471bb55-29e9-4fae-aff4-3c25e679a493" draggable="false" />
 
 ### Dashboard
-<img align="center" alt="Analytix" width="3000px" src="https://github.com/linkspreed/Analytix/blob/main/screenshots/3.PNG" draggable="false" />
+<img align="center" alt="Uptime" width="3000px" src="https://github.com/linkspreed/Uptime/assets/102324985/65ea8be2-7091-44b7-ba9e-e6a7624f2e3a" draggable="false" />
 
 ### Status Page
-<img align="center" alt="Analytix" width="3000px" src="https://github.com/linkspreed/Analytix/blob/main/screenshots/4.PNG" draggable="false" />
+<img align="center" alt="Uptime" width="3000px" src="https://github.com/linkspreed/Uptime/assets/102324985/d1a2d415-3ef8-40f7-a62f-bde9aa28bede" draggable="false" />
 
 ### And so much more ...
-<img align="center" alt="Analytix" width="3000px" src="https://github.com/linkspreed/Analytix/blob/main/screenshots/5.PNG" draggable="false" />
+<img align="center" alt="Uptime" width="3000px" src="https://github.com/linkspreed/Uptime/assets/102324985/41cae077-81c3-4d18-82ab-e0fd9fe3426a" draggable="false" />
