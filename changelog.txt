@@ -1,0 +1,483 @@
+Update 26.0.0 - 12 October, 2023
+
+ Implemented & Released the new PWA Plugin.
+ Implemented the ability to set icons for custom pages created in the admin panel.
+ Implemented the ability to change the tracking type and cookie tracking duration of the affiliate system.
+ Implemented API endpoint for Domains in the admin panel.
+ Implemented Ad blocker detection alert system.
+ Implemented Ad blocker detection lock content until ad blocker is disabled.
+ Implemented Admin panel Webhooks for Domains creation & update events.
+ Implemented the ability to change the main font of the whole website directly from the admin panel.
+ Implemented Database tables size stats in the admin panel statistics page.
+ Implemented Search widget for the Blogging system.
+ Implemented the ability to change the IP displayed to the user for the Custom Domains page shown to the user.
+ Implemented Redeemed Codes Statistics page in the Admin panel.
+ Implemented User's plans distribution statistics table in the Admin panel.
+ Implemented Blog RSS feed.
+ Implemented Microsoft social login.
+ Implemented canonical tags for public pages where they will help with SEO.
+ Implemented the ability to change the OpenAI model for admin panel translation usage.
+ Implemented the ability to set a CDN via the Offload plugin.
+ Implemented the ability to set a Language flag and also set the order of the Languages via the admin panel.
+ Improved the Pay page by displaying an alert on the title when leaving the page.
+ Improved the UI on the admin panel statistics page.
+ Cleaned up the share buttons used in places like blog posts & custom pages and added Telegram share button.
+ Upgraded ReCaptcha, PHPMailer, TwoFactorAuth, Stripe project dependencies to their latest versions.
+ Other small code improvements, changes and tweaks across the whole product.
+ Fix API User endpoint not working properly.
+ Fix Paypal recurring payment rare issue when the business name is not provided.
+ Fix Admin panel Discount update not working properly in some cases.
+Update 25.0.0 - 14 September, 2023
+
+ Implemented the ability to enable/disable testimonials section in the landing page via the admin panel.
+ Implemented the ability to enable/disable the theme switcher from the footer.
+ Implemented the ability to control the length of the generated random short URL from the admin panel.
+ Implemented FAQ block on the homepage which can be enabled from the admin panel.
+ Implemented a new selector for dropdowns with search when needed.
+ Improved announcements look on the frontend.
+ Improved look on plans page.
+ Improved look on affiliate page.
+ Improved look on the call to action widget on the home page.
+ Improved look on plan payment thank you page.
+ Improved look and how internal notifications widget works.
+ Improved look on the pixel creation/update page.
+ Upgraded from FontAwesome 5 to FontAwesome 6.
+ LinkedIn login transitioned to the new version required by LinkedIn.
+ Added support for PHP 8.2.
+ Added the new Threads social network in the footer - from the admin panel.
+ Fixed broadcasts new editor variables not working properly.
+ Fixed the ability to create short URLs on language paths or folder names of the product.
+ Other overall look and feel improvements.
+Update 24.0.0 - 5 August, 2023
+
+ Implemented the ability to enable/disable blog system sections: popular widget, views, categories widget, whole system.
+ Implemented the ability to enable/disable pages system sections: popular widget, views, whole system.
+ Implemented new blocks type editor for the Pages & Blog articles creation page.
+ Implemented new blocks type editor for the Broadcasting system.
+ Implemented Spintax compatibility with Internal notifications & Broadcasting system.
+ Reworked the languages system to improve the way languages are updated on future versions and SEO regarding the language switching mechanism.
+ Improved the blog article edit / create page look.
+ Improved the page edit / create page look.
+ Improved the broadcasted emails - now you can mark a newsletter as a system email (mandatory) which will now show the unsubscribe button.
+ Improved the broadcasted emails - now the user phishing code will show in there as well.
+ Improved the caching on some pages that results in further performance improvements.
+ Improved the blog category and pages category parts when there are no posts to display.
+ Fixed internal notifications page not working properly.
+Update 23.0.0 - 21 July, 2023
+
+ Implemented OpenAI API - Auto translation for the Languages section in the admin panel.
+ Implemented new internal notifications system for users and admins.
+ Implemented internal notifications broadcasts to users from the admin panel.
+ Implemented the ability to customize the whole bootstrap theme colors via the admin panel.
+ Implemented the ability to track broadcasts links clicks, views and show them in a proper new broadcasts statistics page.
+ Implemented the ability to duplicate broadcasts.
+ Implemented the ability to enable/disable the API system completely via the Admin panel.
+ Implemented tooltips over the Create buttons (ex: Link create button) where the usage & limits of your current plans are shown.
+ Implemented welcome emails to freshly registered users.
+ Implemented the ability for the user to specify custom notes for invoices and improved the invoice look.
+ Implemented the ability to force HTTPS requests.
+ Implemented the ability to temporarily lock a user on multiple failed login attempts.
+ Implemented the ability to temporarily lock a user on multiple failed password reset attempts.
+ Implemented the ability to temporarily lock a user on multiple failed resend activation attempts.
+ Implemented the ability to temporarily lock a user on multiple registration attempts.
+ Implemented LinkedIn social login feature.
+ Implemented the ability to only allow social logins registrations.
+ Implemented the ability to allow and display newsletter sign up checkbox on the Registration page.
+ Implemented new broadcasts filtering system by: subscription status, status, plans, source, continents, countries.
+ Implemented caching for all the custom pages and pages categories for higher performance.
+ Implemented caching for all the blog posts & blog categories for higher performance.
+ Implemented caching for plan payment page for higher performance.
+ Implemented caching for account stats in the dashboard for higher performance.
+ Implemented intelligent performance optimization that will literally 100x and use less server resources for certain cached pages.
+ Improved the admin panel dashboard - added online users counter.
+ Improved all the chart looks, speed and animations.
+ Improved notification handlers look.
+ Reworked the monitors & heartbeats chart type and looks.
+Update 22.0.0 - 10 May, 2023
+
+ Implemented the new Broadcasts system which allows you to easily send bulk emails to your users.
+ Implemented MercadoPago one time payment gateway.
+ Implemented the ability to set the amount of days when the system should send a plan expiry reminder, via the admin panel.
+ Implemented the ability to completely enable/disable the API system from the admin panel.
+ Implemented the ability to set a maximum file size for payment proofs on Offline payments.
+ Improved the look of the homepage with animations and styling changes.
+ Improved the account settings pages with icons and cleaned up parts of the code.
+ Updated the MaxMind countries & cities detection databases to their latest versions.
+ Added icons for operating systems and browsers in the statistics pages.
+ Improved API documentation pages with a good looking code highlighter.
+ Other small improvements and new modifications to fit the new broadcasts system.
+ Improved the admin panel payments page to show more details.
+ Improved the admin panel codes page to be able to filter redeemed codes and payments.
+ Improved the admin panel taxes page to be able to filter payments based on particular used taxes.
+Update 21.0.0 - 10 March, 2023
+
+ Implemented Domain Names SSL checks for subdomains as well.
+ Implemented teams & teams members statistics, viewable from the admin panel.
+ Implemented User city & continent tracking, viewable from the admin panel.
+ Implemented Admin panel statistics for: Continents, Countries & Devices (including visual map).
+ Implemented Admin panel plan duplication feature.
+ Implemented user logs city & continent tracking as well.
+ Implemented caching for additional domains, making certain pages faster.
+ Implemented caching for plans making certain pages faster.
+ Implemented 1 hour caching for the stats in the landing page making it faster.
+ Implemented monitors filter by ping server for both the user and the admin.
+ Updated User API Admin endpoint with all the user details.
+ Updated Admin User View page to display more user details.
+ Improved the chart UI in certain scenarios when having a lot of dates selected.
+ Improved tools URL structure.
+ Improved monitor email reports with more details.
+ Fixed Meta Tag Checker tool bug with utf8 characters.
+ Fixed API GET requests not working with the results_per_page parameter.
+ Multiple other code cleanups and improvements.
+Update 20.0.0 - 13 January, 2023
+
+ Implemented Monitors Create, Update, Delete API endpoints.
+ Implemented Heartbeats Create, Update, Delete API endpoints.
+ Implemented Domain Names Create, Update, Delete API endpoints.
+ Implemented the ability to set Meta keywords for status pages.
+ Implemented the ability to set Meta description for status pages.
+ Implemented the ability to set custom page titles on status pages.
+ Implemented the ability to change the font and font sizing for status pages.
+ Implemented the ability to set opengraph image status pages.
+ Implemented the ability to set Meta keywords for blog posts.
+ Implemented the ability to set Meta keywords for individual pages.
+ Implemented the ability to toggle the publishing status for blog posts.
+ Implemented the ability to toggle the publishing status for individual pages.
+ Implemented Order by last updated time filters for all resources.
+ Fully reworked the UI of the admin panel.
+ Fully reworked the UI of the installation, documentation and updating process to match the new admin panel UI.
+ Reworked the Teams plugin to give more customizability regarding permission levels.
+ Fixed plans and invoice pages not using custom decimal and thousand separators.
+Update 19.0.0 - 8 December, 2022
+
+Make sure to re-configure your plans settings for the new additional domains configuration.
+ Implemented the ability to choose monitor check intervals on a per-plan basis.
+ Implemented unconfirmed users auto deletion feature, configurable via the admin panel.
+ Implemented user deletion email notification for admins.
+ Implemented Turnstile Cloudflare captcha system.
+ Implemented a better color picker for all color type inputs.
+ Implemented the ability to export to CSV, JSON, PDF the domains via the admin panel.
+ Implemented the ability to show/hide the plans section on the homepage.
+ Reworked additional custom domains, now you can select which additional domains are available on a per-plan basis.
+ Reworked URL redirection for better UX: When you access a page without being logged in, now you will be able to login and automatically be redirected to your initial requested page.
+ Reworked the admin panel language translation pages for better clarity and also performance.
+ Improved theme switcher: now the logo will automatically switch as well.
+ Improved performance of the whole script & cron job by not running queries to the database when not needed.
+ The Ping tool can now be used from multiple available ping endpoints.
+ Now you can also upload Webp images in most image upload related forms.
+ Taxes set from the admin panel can now contain decimals.
+ The New Payments Webhook now sends the plan expiration date as well.
+ Reworked the Paddle implementation to work with the new API changes.
+ Reworked all the Yes/No form selectors to switches, for better UX (1 less mouse click).
+ Fixed blog category page bug.
+ Fixed custom monitor headers not being sent properly.
+ Multiple other code cleanups, fixes and improvements.
+Update 18.0.0 - 6 October, 2022
+
+ Implemented new BETA cron job for monitors, please read the admin panel -> website settings -> Cron job section.
+ Implemented the ability to see the source of registration of an account (social, API, normal).
+ Implemented Notification Handlers API endpoint.
+ Implemented status page statistics latest entries page.
+ Reworked the admin panel user view page to see all the details available for a user account.
+ Improved upload type fields: now it will specify the maximum size allowed.
+ Updated some external libraries to their latest versions.
+ Now you can install the product and use it on PHP 8.1 as well (please report if there are any related bugs).
+ Blog posts featured image is now considered the opengraph image as well.
+ Blog category page now has the same consistency, including the sidebar widgets.
+ Improved loading performance by autoloading certain required files only on demand (instead of loading them all time).
+ Fixed specific email sending with default webhost settings for Email notifications.
+ Fixed Two Factor Auth not working.
+ Fixed Ping Tool not working properly.
+ Fixed Twilio notifications not using the proper translation strings.
+ Fixed Monitors tracking bug in specific case where a monitor would request with custom headers.
+Update 17.0.0 - 15 July, 2022
+
+ Implemented new payments webhook in the admin panel.
+ Custom domains can not be submitted twice now, if a custom domain is already approved.
+ Improved all file input fields to better looking ones.
+ Reworked the Affiliate system earnings percentages. Now you can set the percentage on a per-plan basis.
+ Reworked the login screen when using two factor authentication for a cleaner look.
+ Reworked the Affiliate system referral URL to work on any kind of internal URL.
+ Refactored a lot of code, resulting in less translation strings for common recurring words.
+ Refactored all deletion modals for consistency purposes, resulting in less code and less translations.
+ Added a sidebar to the blog post page for consistency and looks purposes.
+Update 16.0.0 - 13 June, 2022
+
+ Implemented the new Blogging system.
+ Can be enabled/disabled from the admin panel.
+ All posts & categories are added to the sitemap.
+ Admin panel blog posts management page with filters, pagination & bulk deletion features.
+ Admin panel blog posts categories page with filters, pagination & bulk deletion features.
+ Good looking public blog page with recent posts, categories widget & popular posts widget.
+ Implemented the Teams, Teams Member, Team Members API endpoints for the Teams plugin.
+ Implemented the ability to filter, paginate & bulk delete the admin panel pages system.
+ Implemented the ability to filter, paginate & bulk delete the admin panel pages categories system.
+ Implemented the ability to see Cities status page statistics without clicking on a specific country.
+ Implemented the ability to enable/disable the Tools system & manage them via the admin panel.
+ Implemented new HTTP headers lookup Tool.
+ Implemented new Meta Tags checker Tool.
+ Implemented new URL redirect checker Tool.
+ Implemented new Website hosting checker Tool.
+ Implemented new Google cache checker Tool.
+ Reworked the affiliate plugin: Now you can define affiliate percentages on a per-plan basis.
+ Reworked all admin panel deletion modals, to clean up HTML and remove repetitive language strings.
+ Reworked other parts of the system that lead to removal of repetitive language strings.
+ Reworked the Paddle implementation to work with the new API changes.
+Update 15.0.0 - 7 May, 2022
+
+The logo, favicon & opengraph of the site will have to be re-added after the update due to an upgrade to the related handling system.
+ Implemented the ability to enable/disable auto language detection via the admin panel.
+ Implemented the ability to set a different logo base on the theme style (dark or light).
+ Implemented the ability to set a different logo for emails.
+ Implemented the ability to reset status page statistics.
+ Implemented RTL support for emails & improved the email templates looks.
+ Implemented the ability to create multi-language pages from the admin panel.
+ Implemented an anti-phishing system code for emails sent out to users by the system.
+ Contact form, you can now reply-to via your email client directly via the sent email.
+ Resend activation page will now be disabled if the email confirmation setting is disabled.
+ Reworked and improved the Sitemap to include more pages, dynamically.
+ Improved the pages resources center UI & fixed small bugs.
+ Reworked and improved the language & dark mode switcher.
+ Fixed Mollie annual payments not processing correctly.
+ Fixed reset password not working for some particular emails & not logging the user in after the password change.
+ Fixed admin impersonation of user logout not working properly.
+Update 14.0.0 - 29 March, 2022
+
+ Implemented the Teams system & released the 👨‍💻 Teams Plugin.
+ Implemented cookie consent logging feature to store proof of given consent.
+ Implemented cookie consent logging export to CSV.
+ Implemented cookie consent on status pages as well.
+ Implemented cookie consent settings link in the footer, so that people can change their given consent at all times.
+ All user sessions will be logged out if the account changes password (security improvement).
+ Fixed language preference not persisting when doing certain actions while logged in.
+ Fixed language preference of a user being reset when re-logging in.
+Update 13.0.0 - 16 March, 2022
+
+ Implemented Cookie Consent functionality, highly configurable via the admin panel and translation system.
+ Implemented Discord login functionality, configurable via the admin panel.
+ Implemented Paddle payment gateway for one-time payments.
+ Implemented the ability to generate discount/redeemable codes in bulk via the admin panel.
+ Implemented new dedicated code redeeming page.
+ Implemented the ability to set links (from the admin panel) to open in a new tab.
+ Fully reworked the account related pages for better looks and consistency over the altumcode products.
+ Fixed payments list filters not working for all processors.
+ Fixed payment generation issue in some special cases for a few payment gateways.
+ Fixed DNS lookup tool not working on certain host settings.
+ Fixed Monitor, monitor logs & heartbeat JSON export.
+ Multiple other visual, functional improvements & bugfixes.
+Update 12.1.0 - 16 February, 2022
+
+ Implemented the ability to enable/disable a language via the admin panel.
+ Implemented the ability to filter translated, non translated and all strings when editing a language via the admin panel.
+ Fixed various new translation system issues.
+ Small other visual improvements.
+ Product rebranding from 11uptime to 66uptime.
+Update 12.0.0 - 4 February, 2022
+
+ℹ️ If you want to migrate your translated languages to the new system, use the migration tool.
+ Fully reworked the Languages & Translations system for much better performance, handling and usability.
+ Implemented the ability to edit and translate Languages from the admin panel.
+ Implemented Crypto.com one-time payment gateway.
+Update 11.0.0 - 20 January, 2022
+
+ Implemented new Tools page.
+ Implemented new DNS Lookup Tool.
+ Implemented new IP Lookup Tool.
+ Implemented new Whois Lookup Tool.
+ Implemented new Ping Tool.
+ Implemented new SSL Lookup Tool.
+ Implemented user registration blacklist by country.
+ Implemented Custom Domains blacklist domains field in the admin panel.
+ Implemented Status Pages blacklist keywords in the admin panel.
+ Added the total amount of monitors per Ping Server in the admin panel ping servers page.
+ Status pages Emojis in URLs are now allowed.
+ Reworked the plugin system so plugins won't lose their state anymore when updating.
+ Reworked the admin panel footer (added language switcher + theme switcher).
+ Reworked the footer of the whole app.
+ Improved UX for all collapsable content from monitor, heartbeats, status pages & domain names creation & update pages.
+ Improved UI for all tables on mobile.
+ Improved UX workflow bug when skipping trial & introducing billing details.
+ Improved responsiveness for account payments & logs pages.
+ Improved color contrast in Dark mode.
+ Fixed UI alignment issues on mobile.
+ Fixed payment generation bug when using discount codes in some cases.
+ Fixed admin panel settings UI menu bug.
+ Fixed & improved many other small UI issues.
+Update 10.0.0 - 2 January, 2022
+
+ Implemented a built-in Contact form page (can be enabled from the admin panel -> website settings -> email notifications).
+ Implemented the ability to skip a trial when paying for a plan.
+ Implemented the ability to block registrations from a particular email domain, from the admin panel.
+ Implemented the ability to purge the cache from the admin panel.
+ Implemented the ability to set the default data order (asc, desc) the admin panel.
+ Implemented the ability to set the default pagination results the admin panel.
+ Implemented the ability to set a custom 404 page from the admin panel.
+ Implemented the ability to also export to PDF/print data from tables in the admin panel.
+ Implemented the ability to set custom css and js from the admin panel, for status pages only.
+ Admin Codes - Implemented the ability to paginate, filter, export data.
+ Admin Taxes - Implemented the ability to paginate, filter, export data.
+ Improved the admin panel -> website settings -> main fields, separated them for more clarity.
+ Improved the file upload error handling.
+ Improved the UX of impersonating a user, as an admin.
+ Now reCaptcha and hCaptcha will follow the language that the user currently uses.
+ Other small yet many improvements of the whole system.
+ Fixed a few bugs related to the system.
+Update 9.0.0 - 16 November, 2021
+
+ Implemented PayU one-time payments system.
+ Implemented Yookassa one-time payments system.
+ Reworked the admin panel announcements system.
+ Implemented RazorPay one-time & recurring payments system.
+ Implemented Mollie one-time & recurring payments system.
+ Implemented Paystack one-time & recurring payments system.
+ Implemented an Auto Cleanup functionality for old, inactive users. Can be activated and configured in the admin panel.
+ Implemented email notifications for old & soon-to-be-deleted users, if the Auto Cleanup functionality is enabled.
+ Improved the domain name widgets to display more information when available.
+ Reworked & improved the API documentation page.
+ Added the ability to select the ECC level when generating a QR Code.
+ Fixed domain names & monitors cron job problem where the order of the next check would not work as intended.
+ Improved the share component of the status pages.
+ Implemented the ability to set the Branding of the status pages via the admin panel.
+ Other bugfixes & improvements.
+Update 8.1.0 - 21 October, 2021
+
+ Implemented domain names registrar info.
+ Domains are now allowed when adding a ping or port monitor (previous only IPs would work).
+ Updated domain name parser package to the latest stable release.
+ Fixed domain name cron job blocking when a domain name would not return all the required details.
+ Fixed domain name not showing properly when the domain name is not yet registered.
+ Fixed monitors not displaying the current uptime timestamp properly.
+ Fixed admin update page not working.
+ Fixed login, register pages visual bug.
+Update 8.0.0 - 18 October, 2021
+
+ Implemented & developed the new Image Optimizer Plugin -> Image Optimizer Plugin
+ Implemented the ability to enable/disable the QR code builder on a per-plan basis, via the admin panel.
+ Improved the invoices system, now the invoices are immutable.
+ Implemented the ability to filter Projects results.
+ Implemented the ability to export Projects to CSV/JSON.
+ Implemented the ability to filter Domains results.
+ Implemented the ability to export Domains to CSV/JSON.
+ Implemented the ability to filter Notification Handlers results.
+ Implemented the ability to export Notification Handlers to CSV/JSON.
+ Reworked the Redeemable Codes system. Redeeming is happening now only from the Checkout page.
+ Discount/Redeemable codes can now be applied on a per plan basis (more flexibility).
+ Reworked parts of how the taxes system is working in the admin panel.
+ All the data tables are now ordered by the date, descending (previous ascending).
+ Many other code cleanups, improvements and bugfixes.
+Update 7.0.0 - 10 September, 2021
+
+ Implemented Coinbase (crypto) payments.
+ Fully reworked the Trial system. Now you can set how many days you want to give out on a per-plan basis.
+ Implemented the ability to display, edit and set a Custom plan on the plans section, via the admin panel.
+ Implemented the ability to highlight a particular plan with a particular color via the admin panel.
+ Implemented the ability to enable/disable search engine indexing from the admin panel.
+ Implemented Twitter login.
+ Fully reworked the social logins workflow for better performance and user experience.
+ Reworked the admin panel plan update, create & user update pages for consistency purposes.
+ Improved the way admin panel plans are displayed.
+ Fully reworked the whole admin panel - website settings page, which now avoids some small, yet annoying bugs & UX bugs.
+ Now you are able to use utf8 characters in status pages URL aliases, (ex: domain.com/s/特点)
+ Reworked the admin panel - pages part for a better UX experience.
+ If you now redeem a plan that you already have on your account, the redeemed plan days will be now added on top.
+ Fixed cron job bug where in certain cases it would get stuck checking domain names.
+ Many code cleanups, improvements and other small bugfixes.
+Update 6.0.0 - 1 August, 2021
+
+ Implemented Telegram notification handler.
+ Implemented Google login functionality.
+ Implemented the ability to export status page visits statistics via CSV and JSON.
+ Implemented admin panel bulk deletion feature for Monitors, Heartbeats, Domain names, Status pages, Projects, Domains, Notification handlers.
+ Completely remade the PayPal One Time payments with the new V2 API.
+ Completely remade the PayPal Subscription payments which fixed a few small UX issues.
+ Implemented the ability to view & delete all the user logs from the Admin Panel, filter them, export them via CSV and JSON.
+ Implemented user logs device type, country and operating system tracking for important activities of an account.
+ Implemented the ability to view all the used coupons of a particular user from the admin panel.
+ Implemented the ability to export Account Payments to JSON and CSV.
+ Implemented the ability to export Account Logs to JSON and CSV & filter them.
+ Improved the consistency of the success messages across the platform, while reducing the size of the translation file.
+ Reworked the ability to send SMTP test emails from the admin panel for testing.
+ Fixed custom domains issue when using multiple languages.
+ Fixed small taxes calculation issue.
+ Fixed Monitor Checks pagination not working properly.
+Update 5.0.0 - 14 July, 2021
+
+ Implemented new Domain Names system.
+ SSL Certificate reminders are now set from the new domain names system, instead of monitors.
+ Domain names system can check for the expiration date of a domain name and notify you.
+ Implemented the ability to manage domain names via the admin panel.
+ Implemented the API for domain names (read).
+ Implemented new domain names statistics page in the admin panel.
+ Implemented new Notification Handlers system.
+ Email, Slack, Webhooks, Discord, Twilio notifications.
+ You can now create and manage multiple channels of notifications and get notified for Monitors, Domain names, Heartbeats on multiple ways (3 email addresses, 2 slack hooks, for example).
+ Implemented the ability to manage notification handlers via the admin panel.
+ Implemented the API for notification handlers (read).
+ Implemented new plan settings for notification handlers to limit the exact amount of notification handlers a user can have.
+ Implemented RTL support.
+ Implemented the ability to set the number of days that status page statistics will be kept for, per plan from the admin panel.
+ Implemented the ability to enable/disable the Referral system per plan from the admin panel.
+Update 4.2.0 - 17 June, 2021
+
+ Implemented email reminders for accounts that are on one-time payments (not recurring) 3 days before expiration.
+Update 4.1.0 - 11 June, 2021
+
+ Implemented the first version of the Plugins Management system.
+ Implemented the first "Offload" plugin, available to purchase here.
+ Fixed a few small bugs.
+Update 4.0.0 - 4 June, 2021
+
+ Implemented more detailed failed checks on websites monitors.
+ Implemented the ability to change the plans order via the admin panel.
+ Implemented new admin panel Plans API (Read).
+ Implemented new admin panel users management - bulk selection & deletion feature.
+ Implemented admin panel statistics total numbers per selected date range.
+ Reworked the checkout flow (better UX) for when the user is required to fill in his billing details.
+ Added the last execution date of the Cron Job in the admin panel.
+ Improved all the emails that are being sent (activation, password reset..etc) for consistency.
+ Updated the bootstrap library to the latest stable release of 4.6.
+Update 3.0.0 - 18 May, 2021
+
+ Implemented monitor checks separated page with pagination, filters, pdf export, downloadable via JSON, CSV.
+ Implemented monitor SSL Checks.
+ Implemented monitor SSL Certificate expiration notifications via email.
+ Implemented Monitors weekly/monthly reports via email.
+ Implemented Heartbeats weekly/monthly reports via email.
+ Implemented double checks on failed responses for monitors, to minimize false positives.
+ Implemented API status pages statistics endpoint (Read).
+ Implemented the ability to set an opengraph image for the homepage via the admin panel.
+ Implemented bg and text color settings for the admin panel announcements feature.
+ Implemented the ability to switch between raw html content & wysiwyg editor for the admin panel pages system.
+ Fixed ping server couldn't be deleted.
+Update 2.1.0 - 15 April, 2021
+
+ Implemented announcements system from the admin panel where you can set a short text announcements for your users.
+ Improved UX for the Reset Password, Resend Activation, Lost Password pages.
+ Fully reworked all the statistics related charts: now they are grouped results by years, months, days & hours based on the selected date range.
+ Fixed page categories not being able to be selected when creating/updating a page.
+ Fixed taxes not being able to be selected when creating/updating a plan.
+ Fixed twilio notifications not being linked to a proper translation.
+Update 2.0.0 - 2 April, 2021
+
+ Implemented Webhook URL notifications for Monitors and Heartbeats.
+ Implemented Slack notifications for Monitors and Heartbeats.
+ Implemented Twilio SMS notification system, manageable from the admin panel and plans section.
+ Implemented SMS notifications for Monitors and Heartbeats.
+ Implemented Custom Domains API - Create, get list, get one, update, delete.
+ Implemented Payments API - Get list, get one.
+ Implemented Logs API - Get list.
+ Implemented Monitors API - Get list, get one.
+ Implemented Heartbeats API - Get list, get one.
+ Implemented Status Pages API - Get list, get one.
+ Implemented Projects API - Create, get list, get one, update, delete.
+ Implemented the ability to set a custom not found page for custom domains.
+ Implemented Status Pages logo & favicon size limiter from the admin panel.
+ Implemented Admin API - Users list.
+ Implemented the ability to enable/disable the API usage per plan from the admin panel.
+ Implemented language detection based on the browser in certain cases, where possible.
+ Implemented the ability to set the default server ping method from the admin panel (exec or fsockopen).
+ Implemented the ability to delete already set status page favicons and logos.
+ Fixed multiple bugs related to custom domains.
+ Fixed user activation with the activation email bug.
+ Multiple other behind the scenes improvements on the code & bugfixes.
+Initial release - 26 March, 2021
