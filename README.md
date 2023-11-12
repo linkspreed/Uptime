@@ -1,4 +1,4 @@
-# <img align="left" alt="Uptime" width="40px" src="https://github.com/linkspreed/Uptime/assets/102324985/617315d4-32b2-430b-afa4-4247926241d0" draggable="false" /> ([Click to try 🚀](https://uptime.linkspreed.com/)) (v3.6.1)
+# <img align="left" alt="Uptime" width="150px" src="https://github.com/linkspreed/Uptime/assets/102324985/617315d4-32b2-430b-afa4-4247926241d0" draggable="false" /> ([Click to try 🚀](https://uptime.linkspreed.com/)) (v26.0.0)
 
 Analytix💙 - as a developer,👨‍💻 get deep insights and analyzes for your websites📈 - free of charge, unlimited storage space and in real time
 
